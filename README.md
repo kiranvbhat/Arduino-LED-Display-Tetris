@@ -10,7 +10,10 @@ Tetris clone created for custom-built Arduino 8x8 LED display.
   - Row elimination
   - Block movement (move w/ joystick, quick drop by holding down, rotate by clicking joystick)
   - Grace period before block lock-in
-- Game over animation
+- Custom Animations
+  - Game over animation
+  - Row elimination animation
+  - Moving block displayed brighter than locked-in blocks
 - Infinite tetris
   - New game immediately starts after previous game ends
   - Makes for a cool retro decoration on a desk
