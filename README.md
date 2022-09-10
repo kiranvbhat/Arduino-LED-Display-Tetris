@@ -21,8 +21,8 @@ Tetris clone created for custom-built Arduino 8x8 LED display.
 ### Code Overview
 - Display pattern is represented as a 2D array of brightnesses (from 0 - 15). Check `display()` function in `Tetris.ino` for more implementation details.
 - Information about the current state of the game stored in global variables
-  - Current block stored as an array of pieces (piece is a struct with x-y coords)
+  - Current block stored as an array of pieces (`piece` is a struct with x-y coords)
   - Block position/other block info
   - Layout of locked in blocks (savedPattern)
   - State of joystick
-- In the main loop, I call functions readJoystick() and checkCollisions() to update these global variables. I also call checkGameEnd() and checkRowsFull() to check if the game should be over or if any rows should be eliminated.
+- In the main loop, I call functions `readJoystick()` and `checkCollisions()` to update these global variables. I also call `checkGameEnd()` and `checkRowsFull()` to check if the game should be over or if any rows should be eliminated.
