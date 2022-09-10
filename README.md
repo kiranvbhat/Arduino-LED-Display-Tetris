@@ -2,6 +2,8 @@
 Tetris clone created for custom-built Arduino 8x8 LED display.
 
 ### Gameplay Demo
+[![Arduino LED Display + Tetris](https://imgur.com/A9AC5Fu.gif)](https://youtu.be/hBOwo1rJkic "Arduino LED Display + Tetris")
+
 
 ### Features
 - Main tetris mechanics
@@ -14,6 +16,7 @@ Tetris clone created for custom-built Arduino 8x8 LED display.
   - Makes for a cool retro decoration on a desk
   
 ### Code Overview
+- Display pattern is represent as a 2D array of brightnesses (from 0 - 15). Check `display()` function in `Tetris.ino` for more implementation details.
 - Information about the current state of the game stored in global variables
   - Current block stored as an array of pieces (piece is a struct with x-y coords)
   - Block position/other block info
