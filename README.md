@@ -7,8 +7,8 @@ Tetris clone created for custom-built Arduino 8x8 LED display.
 
 ### Features
 - Main tetris mechanics
-  - Row elimination
   - Block movement (move w/ joystick, quick drop by holding down, rotate by clicking joystick)
+  - Full row elimination
   - Grace period before block lock-in
 - Custom animations
   - Game over animation
