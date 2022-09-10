@@ -1,7 +1,7 @@
 # Arduino LED Display + Tetris
 Tetris clone created for custom-built Arduino 8x8 LED display.
 
-### Gameplay Demo
+### Gameplay Demo (Click GIF for Youtube Video)
 [![Arduino LED Display + Tetris](https://imgur.com/A9AC5Fu.gif)](https://youtu.be/hBOwo1rJkic "Arduino LED Display + Tetris")
 
 
